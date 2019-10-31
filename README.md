@@ -1,8 +1,10 @@
 # <span dir="ltr">Software Design Documents: Thoughts and Template</span>
 
-<span dir="ltr">Last update: April 8, 2018</span>
+*<span dir="ltr">Last Updated: Oct 30, 2019</span>*
 
-*<span dir="ltr">Adam Fletcher, Jonathan Mortensen</span>*
+*<span dir="ltr">Authors: Adam Fletcher, Jonathan Mortensen</span>*
+
+*<span dir="ltr">Status: Approved</span>*
 
 <span dir="ltr"></span>
 
@@ -140,3 +142,7 @@ easy commenting, requires additional rendering tools, and importantly
 has no way to easily represent tables. It’s fine to move the doc to a
 revision-controlled format and location once the doc has been
 approved.</span>
+
+## See [design doc template](template.md) ##
+
+<p align="center"> &copy 2019, Adam Fletcher </p>
