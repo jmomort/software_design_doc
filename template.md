@@ -69,3 +69,5 @@
 <span dir="ltr"></span>
 
 <span dir="ltr"></span>
+
+<p align="center"> &copy 2019 Adam Fletcher</p>
