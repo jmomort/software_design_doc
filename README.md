@@ -1,50 +1,32 @@
-# <span dir="ltr">Software Design Documents: Thoughts and Template</span>
+# Software Design Documents: Thoughts and Template
 
-*<span dir="ltr">Last Updated: Oct 30, 2019</span>*
+Last Updated: Oct 30, 2019
 
-*<span dir="ltr">Authors: Adam Fletcher, Jonathan Mortensen</span>*
+Authors: Adam Fletcher, Jonathan Mortensen
 
-*<span dir="ltr">Status: Approved</span>*
+Status: Approved
 
-<span dir="ltr"></span>
 
-<span dir="ltr"></span>
-
-**<span dir="ltr">The goal of a design document is to provide some
+**The goal of a design document is to provide some
 structure around thinking in depth about a complex problem that will be
-solved in software before writing that software.</span>**
+solved in software before writing that software.**
 
-<span dir="ltr"></span>
 
-<span dir="ltr">The goal of a design document is NOT to:</span>
 
-  - > <span dir="ltr">Detail a schedule for the creation of software;
-    > it’s not the waterfall style specifications document.</span>
+The goal of a design document is NOT to:
+  * Detail a schedule for the creation of software; it’s not the waterfall style specifications document.
+  * Be 100% correct. No design doc has ever survived meeting reality, and that’s fine.
+  * Be used for simple problems. Use taste to decide if something like this is needed.
 
-  - > <span dir="ltr">Be 100% correct. No design doc has ever survived
-    > meeting reality, and that’s fine.</span>
 
-  - > <span dir="ltr">Be used for simple problems. Use taste to decide
-    > if something like this is needed.</span>
+Design documents should have:
 
-<span dir="ltr"></span>
+  * A clear title.
+  * A list of the authors, the date the document was created, the status of the document, the names of those reviewing it, and the the time allowed for the review. All names should be individuals, not groups - it’s not okay to say “engineering” as a reviewer, since that means nobody will review it.
+  * A summary of the problem, document goal, and proposed solution.
 
-<span dir="ltr">Design documents should have:</span>
-
-  - > <span dir="ltr">A clear title.</span>
-
-  - > <span dir="ltr">A list of the authors, the date the document was
-    > created, the status of the document, the names of those reviewing
-    > it, and the the time allowed for the review. All names should be
-    > individuals, not groups - it’s not okay to say “engineering” as a
-    > reviewer, since that means nobody will review it.</span>
-
-  - > <span dir="ltr">A summary of the problem, document goal, and
-    > proposed solution.</span>
-
-  - > <span dir="ltr">The problem</span>
-    
-      - > <span dir="ltr">Definition</span>
+The problem
+  * Definition
     
       - > <span dir="ltr">Examples</span>
     
@@ -135,14 +117,14 @@ solved in software before writing that software.</span>**
 
 <span dir="ltr"></span>
 
-<span dir="ltr">A design doc is best written in a format that allows
+A design doc is best written in a format that allows
 extremely fast collaboration and commenting. We recommend Google Docs
 for this. We don’t recommend Markdown, as Markdown doesn’t allow for
 easy commenting, requires additional rendering tools, and importantly
 has no way to easily represent tables. It’s fine to move the doc to a
 revision-controlled format and location once the doc has been
-approved.</span>
+approved.
 
 ## See [design doc template](template.md) ##
 
-<p align="center"> &copy 2019, Adam Fletcher </p>
+Copyright 2019, Adam Fletcher
